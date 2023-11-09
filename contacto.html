@@ -1,107 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <title> Contacto </title>
-    </head>
 
-    <body>
-        <header>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title> Contacto </title>
+</head>
 
-            <div class="caja">  
+<body>
+    <header>
 
-                <h1> <img src="imagenes/logo.png" alt="Logo de la Barbería Alura" >  </h1>
-                <nav>
-                    <ul>
-                        <li><a href="index.html"> Home </a> </li>
-                        <li><a href="productos.html" >Productos </a></li>
-                        <li><a href="contacto.html"> Contacto </a> </li>
-                    </ul>    
-                </nav>
+        <div class="caja">
 
-          </div>
+            <h1> <img src="imagenes/logo.png" alt="Logo de la Barbería Martin"> </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home </a> </li>
+                    <li><a href="productos.html">Productos </a></li>
+                    <li><a href="contacto.html"> Contacto </a> </li>
+                </ul>
+            </nav>
 
-        </header>
-        <main>
-            <form>
-                <label for="nombreapellido"> Nombre y Apellido </label>
-                <input type="text" id="nombreapellido" class="input-padron">
+        </div>
 
-                <label for="correoeletrónico">  Correo Electrónico </label>
-                <input type="email" id="correoelectrónico" class="input-padron" placeholder="email@dominio.com">
+    </header>
+    <main>
+        <form>
+            <label for="nombreapellido"> Nombre y Apellido </label>
+            <input type="text" id="nombreapellido" class="input-padron">
 
-                <label for="teléfono">Teléfono</label>
-                <input type="tel" id="teléfono" class="input-padron" placeholder="(xx)-(xxx)-xxxxxxx">
-                
-                <label for="mensaje" > Mensaje </label>
-                <textarea cols="63" rows="10" id="mensaje" class="input-padron" required></textarea>
-                <fieldset>
-                    <legend>¿Cómo le gustaría que lo contactemos?</legend>
+            <label for="correoeletrónico"> Correo Electrónico </label>
+            <input type="email" id="correoelectrónico" class="input-padron" placeholder="email@dominio.com">
 
-                    <label for="radio-email"><input type="radio"name="contacto" value="Email" id="radio-email">Email</label>
-                    
-                    
-                    <label for="radio-teléfono"><input type="radio"name="contacto"value="Teléfono" id="radio-teléfono">Teléfono</label>
-                    
+            <label for="teléfono">Teléfono</label>
+            <input type="tel" id="teléfono" class="input-padron" placeholder="(xx)-(xxx)-xxxxxxx">
 
-                    <label for="radio-whatsaap"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsaap</label>
-                      
-                </fieldset>
-                <fieldset>
-                    <legend>¿En cuál horario prefiere ser atendido?</legend>
-                    <select>
-                        <option>Mañana</option>
-                        <option>Tarde</option>
-                        <option>Noche</option>
-                    </select>   
-                </fieldset>
-                <label class="checkbox"><input type="checkbox" checked>Le gustaría recibir novedades de la Barbería Martin ?</label>
+            <label for="mensaje"> Mensaje </label>
+            <textarea cols="63" rows="10" id="mensaje" class="input-padron" required></textarea>
+            <fieldset>
+                <legend>¿Cómo le gustaría que lo contactemos?</legend>
 
-                <input type="submit" value="Enviar Formulario" class="enviar">
-                
-            </form>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Día</th>
-                        <th>Hora</th>
-                        
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Lunes</td>
-                        <td>08hs ~ 20hs</td> 
-                    </tr>
-                    <tr>
-                        <td>Miércoles</td>
-                        <td>08hs ~ 20hs</td>
-                    </tr>
-                    <tr>
-                        <td>Viernes</td>
-                        <td>08hs ~ 20hs</td>
-                    </tr>
-                </tbody>
-                
-                
-            </table>
+                <label for="radio-email"><input type="radio" name="contacto" value="Email"
+                        id="radio-email">Email</label>
 
 
+                <label for="radio-teléfono"><input type="radio" name="contacto" value="Teléfono"
+                        id="radio-teléfono">Teléfono</label>
+
+
+                <label for="radio-whatsaap"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp"
+                        checked>Whatsaap</label>
+
+            </fieldset>
+            <fieldset>
+                <legend>¿En cuál horario prefiere ser atendido?</legend>
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </fieldset>
+            <label class="checkbox"><input type="checkbox" checked>Le gustaría recibir novedades de la Barbería Martin
+                ?</label>
+
+            <input type="submit" value="Enviar Formulario" class="enviar">
+
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Hora</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>08hs ~ 20hs</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>08hs ~ 20hs</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>08hs ~ 20hs</td>
+                </tr>
+            </tbody>
+
+
+        </table>
 
 
 
-        </main>    
-        
-
-        <footer>
-            
-            <img src="imagenes/logo-blanco.png" alt="Logo de la Barbería Alura">
-            
-            <p class="Copyrigth"> &copy; Copyrigth Barbería Martin - 2023 </p>
-
-        </footer>
-    </body>
 
 
+    </main>
+
+
+    <footer>
+
+        <img src="imagenes/logo-blanco.png" alt="Logo de la Barbería Martin">
+
+        <p class="Copyrigth"> &copy; Copyrigth Barbería Martin - 2023 </p>
+
+    </footer>
+</body>
