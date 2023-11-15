@@ -54,8 +54,8 @@ nav a:hover{
     
 }
 .productos li:hover{
-   border-color: #c78c19;
-   font-size: 33px;
+    border-color: #c78c19;
+    font-size: 33px;
 }
 .productos li:active{
     border-color:#088c19 ;
@@ -70,15 +70,15 @@ nav a:hover{
     font-size: 33px;
 
 }
-.producto-descripción{
+.producto-descripción{  
     font-size: 18px;
-  
+
 }
 .producto-precio{
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
-   
+
 }
 footer{
     text-align: center;
@@ -196,7 +196,6 @@ margin:0 20px 20px 0;
 .contenido-diferenciales{
     width: 640px;
     margin: 0 auto;
-     
 }
 .lista-diferenciales{
     width:40%;
@@ -210,7 +209,7 @@ margin:0 20px 20px 0;
     font-weight: bold;
 }
 .items::before{
-   content:"★" ; 
+    content:"★" ; 
 }
 .imagen-Diferenciales{
     width: 60%;
@@ -226,17 +225,17 @@ margin:0 20px 20px 0;
     margin: 1em auto;
 }
 @media screen and (max-width:480px){
-h1{
-    text-align: center;
-}
-nav{
-    position:static;
-}
-.caja,.principal,.mapa-contenido,.contenido-diferenciales,.video{
-        width: auto;
+    h1{
+        text-align: center;
     }
-.lista-diferenciales,.imagen-Diferenciales{
-    width:100%;
-}
+    nav{
+        position:static;
+    }
+    .caja,.principal,.mapa-contenido,.contenido-diferenciales,.video{
+        width:100px;
+    }
+    .lista-diferenciales,.imagen-Diferenciales{
+        width:auto;
+    }
 
 }

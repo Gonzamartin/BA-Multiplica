@@ -6,8 +6,6 @@ function promo(){
         showCancelButton: true,
         confirmButtonColor: "#008500",
         cancelButtonColor: "#d33",
-        background: "#ffffff",
-        backdrop: 'rgba(208, 211, 212 ,0.55)',
         confirmButtonText: "Registrame",
 
     }).then((result) => {

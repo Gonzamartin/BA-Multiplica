@@ -12,7 +12,8 @@ function aplicar(){
             title: 'Error!',
             text: 'Hay campos sin completar',
             icon: 'error',
-            confirmButtonText: 'Confirmar',
+            confirmButtonText: 'Continuar',
+            
         })
     }else{
         Swal.fire({ 
@@ -20,6 +21,7 @@ function aplicar(){
             text: 'Hemos registrado su información',
             icon: 'success',
             confirmButtonText: 'OK',
+            confirmButtonColor: "#008500"
             })
         }
 
